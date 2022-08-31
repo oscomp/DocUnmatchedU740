@@ -67,11 +67,6 @@ https://www.reddit.com/r/RISCV/comments/no4a3e/hifive_unmatched_openocd_gdb_begi
 * 移植
 https://github.com/GCYYfun/DraftDoc/blob/master/zCore/zcore.md
 
-
-### 支持u740的bootloader和rust库
-https://github.com/rustsbi/rustsbi-hifive-unmatched
-https://github.com/riscv-rust/fu740-pac
-
 ### nxos操作系统运行于unmatched u740文档
 https://gitee.com/BookOS/nxos-documentation/blob/master/programing-manual/platform/hifive_unmached.md
 
@@ -83,5 +78,11 @@ u-boot> setenv nxos 'dhcp; setenv serverip 10.0.1.5; tftp 0x84000000 nxos.elf; b
 #替换 bootcmd
 u-boot> setenv bootcmd 'run nxos'
 ```
+
+### 支持u740的bootloader和rust库
+* rustsbi
+https://github.com/rustsbi/rustsbi-hifive-unmatched
+* fu740-pac
+https://github.com/riscv-rust/fu740-pac
 
 
